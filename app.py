@@ -5,6 +5,6 @@ def print_table(num):
 
 if __name__=='__main__':
     num = 15
-    answer = print_table((num)
+    answer = print_table(num)
     print(answer)
 
