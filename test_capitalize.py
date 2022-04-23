@@ -1,7 +1,10 @@
 # test_capitalize.py
 
-def capitalize_string(s):
+from app import capitalize_string
+
+def test_capitalize_string2():
     """ test 1"""
+    s = "helloworld"
     if not isinstance(s, str):
         raise TypeError('Please provide a string')
     return s.capitalize()
